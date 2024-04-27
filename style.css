@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-   
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+
+body {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .cabeçalho {
@@ -20,74 +20,88 @@ body{
     font-family: "Eagle Lake", serif;
     font-weight: 400;
     font-style: normal;
-      }
-      
-
-.cabeçalho-imagem{
-width: 10%;
 }
-.cabeçalho-lista-item{
+
+.cabeçalho-imagem {
+    width: 10%;
+}
+
+.cabeçalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
 }
-.cabeçalho-div{
+
+.cabeçalho-div {
     display: flex;
 }
-.cabeçalho-titulo{
+
+.cabeçalho-titulo {
     padding: 20px 0;
-    color: #ffffff;    
+    color: #ffffff;
 }
-.jogos-titulo{
+
+.jogos-titulo {
     color: rgb(255, 255, 255);
     width: 50%;
     padding: 2px 50px;
     text-align: center;
 }
-.imagem-3{
+
+.imagem-3 {
     width: 400px;
     padding: 50px 200px;
 }
-.jogos{
-    background-image: linear-gradient(#000000,#b7d5e5);
+
+.jogos {
+    background-image: linear-gradient(#000000, #b7d5e5);
     color: #ffffff;
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
     padding: 2px 50px;
-    
 }
-.jogos-textos{
+
+.jogos-textos {
     width: 35%;
     padding: 24px 100px;
     text-align: center;
-    
 }
-.ferramentas{
-    background-color: #b7d5e5;
 
+.ferramentas {
+    background-color: #b7d5e5;
 }
-.ferramenta-titulo{
+
+.ferramenta-titulo {
     text-align: center;
     padding: 25px 0;
-        
 }
-.ferramenta-aventura{
-    width: 120px;
 
+.ferramenta-aventura {
+    width: 120px;
 }
-.ferramentas-icones{
+
+.ferramentas-icones {
     width: 24px;
     padding: 10px 10px;
-
 }
-.ferramentas-div{
+
+.ferramentas-div {
     text-align: center;
     padding: 16px 0;
-
 }
-.ferramentas-todos{
+
+.ferramentas-todos {
     display: grid;
-    grid-template-columns: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7%  ;
+    grid-template-columns: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7%;
+}
+
+.aventuraimg {
+    width: 100px; 
+    height: auto; 
+}
+
+.aventuraimg[src$="rugby-ball.png"] {
+    width: 120px; 
 }
